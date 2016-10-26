@@ -1,0 +1,9 @@
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\BLL.dll
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\BLL.pdb
+D:\projetos\Academia\AcademSys\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\projetos\Academia\AcademSys\BLL\obj\Debug\BLL.dll
+D:\projetos\Academia\AcademSys\BLL\obj\Debug\BLL.pdb
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\DAL.dll
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\Models.dll
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\DAL.pdb
+D:\projetos\Academia\AcademSys\BLL\bin\Debug\Models.pdb

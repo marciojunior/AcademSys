@@ -1,0 +1,7 @@
+D:\projetos\Academia\AcademSys\DAL\bin\Debug\DAL.dll
+D:\projetos\Academia\AcademSys\DAL\bin\Debug\DAL.pdb
+D:\projetos\Academia\AcademSys\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\projetos\Academia\AcademSys\DAL\obj\Debug\DAL.dll
+D:\projetos\Academia\AcademSys\DAL\obj\Debug\DAL.pdb
+D:\projetos\Academia\AcademSys\DAL\bin\Debug\Models.dll
+D:\projetos\Academia\AcademSys\DAL\bin\Debug\Models.pdb

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BA9FA4A-28F2-4C88-8F78-707283A7F434}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AcademSys</RootNamespace>
+    <AssemblyName>AcademSys</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Actions-system-run.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ajuda.Designer.cs">
+      <DependentUpon>ajuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmrClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmrClientes.Designer.cs">
+      <DependentUpon>FmrClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddAgenda.Designer.cs">
+      <DependentUpon>FrmAddAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddAvaliacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddAvaliacoes.Designer.cs">
+      <DependentUpon>FrmAddAvaliacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCliente.Designer.cs">
+      <DependentUpon>FrmAddCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCP.Designer.cs">
+      <DependentUpon>FrmAddCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCR.Designer.cs">
+      <DependentUpon>FrmAddCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddMensalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddMensalidade.Designer.cs">
+      <DependentUpon>FrmAddMensalidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddPlano.Designer.cs">
+      <DependentUpon>FrmAddPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddTurma.Designer.cs">
+      <DependentUpon>FrmAddTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddUsuario.Designer.cs">
+      <DependentUpon>FrmAddUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgenda.Designer.cs">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlocaAlunoTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlocaAlunoTurma.Designer.cs">
+      <DependentUpon>FrmAlocaAlunoTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAvaliacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAvaliacoes.Designer.cs">
+      <DependentUpon>FrmAvaliacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmControleCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmControleCaixa.Designer.cs">
+      <DependentUpon>FrmControleCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarAgenda.Designer.cs">
+      <DependentUpon>FrmEditarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarAvaliacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarAvaliacoes.Designer.cs">
+      <DependentUpon>FrmEditarAvaliacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarCliente.Designer.cs">
+      <DependentUpon>FrmEditarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarCP.Designer.cs">
+      <DependentUpon>FrmEditarCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarCR.Designer.cs">
+      <DependentUpon>FrmEditarCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarMensalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarMensalidade.Designer.cs">
+      <DependentUpon>FrmEditarMensalidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarPlano.Designer.cs">
+      <DependentUpon>FrmEditarPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarTurma.Designer.cs">
+      <DependentUpon>FrmEditarTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarUsuario.Designer.cs">
+      <DependentUpon>FrmEditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenssalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenssalidade.Designer.cs">
+      <DependentUpon>FrmMenssalidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlano.Designer.cs">
+      <DependentUpon>FrmPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPonto.Designer.cs">
+      <DependentUpon>FrmPonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTurma.Designer.cs">
+      <DependentUpon>FrmTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisualizarTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisualizarTurma.Designer.cs">
+      <DependentUpon>FrmVisualizarTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ajuda.resx">
+      <DependentUpon>ajuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmrClientes.resx">
+      <DependentUpon>FmrClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddAgenda.resx">
+      <DependentUpon>FrmAddAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddAvaliacoes.resx">
+      <DependentUpon>FrmAddAvaliacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCliente.resx">
+      <DependentUpon>FrmAddCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCP.resx">
+      <DependentUpon>FrmAddCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCR.resx">
+      <DependentUpon>FrmAddCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddMensalidade.resx">
+      <DependentUpon>FrmAddMensalidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddPlano.resx">
+      <DependentUpon>FrmAddPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddTurma.resx">
+      <DependentUpon>FrmAddTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddUsuario.resx">
+      <DependentUpon>FrmAddUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgenda.resx">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlocaAlunoTurma.resx">
+      <DependentUpon>FrmAlocaAlunoTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAvaliacoes.resx">
+      <DependentUpon>FrmAvaliacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmControleCaixa.resx">
+      <DependentUpon>FrmControleCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarAgenda.resx">
+      <DependentUpon>FrmEditarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarAvaliacoes.resx">
+      <DependentUpon>FrmEditarAvaliacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarCliente.resx">
+      <DependentUpon>FrmEditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarCP.resx">
+      <DependentUpon>FrmEditarCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarCR.resx">
+      <DependentUpon>FrmEditarCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarMensalidade.resx">
+      <DependentUpon>FrmEditarMensalidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarPlano.resx">
+      <DependentUpon>FrmEditarPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarTurma.resx">
+      <DependentUpon>FrmEditarTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarUsuario.resx">
+      <DependentUpon>FrmEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenssalidade.resx">
+      <DependentUpon>FrmMenssalidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlano.resx">
+      <DependentUpon>FrmPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPonto.resx">
+      <DependentUpon>FrmPonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTurma.resx">
+      <DependentUpon>FrmTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarTurma.resx">
+      <DependentUpon>FrmVisualizarTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3F3956AA-C6C4-4713-B257-68D91B8DD7FF}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{00DFCD1B-2603-460C-B612-DB52A26C15D9}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-green-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-red-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Actions-system-run.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

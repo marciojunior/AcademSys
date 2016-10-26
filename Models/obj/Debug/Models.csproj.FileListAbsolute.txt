@@ -1,0 +1,5 @@
+D:\projetos\Academia\AcademSys\Models\obj\Debug\ResolveAssemblyReference.cache
+D:\projetos\Academia\AcademSys\Models\bin\Debug\Models.dll
+D:\projetos\Academia\AcademSys\Models\bin\Debug\Models.pdb
+D:\projetos\Academia\AcademSys\Models\obj\Debug\Models.dll
+D:\projetos\Academia\AcademSys\Models\obj\Debug\Models.pdb
