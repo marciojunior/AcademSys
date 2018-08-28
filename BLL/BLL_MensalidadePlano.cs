@@ -12,9 +12,9 @@ namespace BLL
         DAL_MensalidadePlano mpDAL;
 
         /// <summary>
-        /// Inserindo essa porra cacete
+        /// Inserir Mensalidade - Plano
         /// </summary>
-        /// <param name="mp">OBJETO COM A SUA MAE DENTRO</param>
+        /// <param name="mp">Obejto de mensalidade - plano</param>
         public void inserir(MO_MensalidadePlano mp)
         {
             if (mp != null)
@@ -26,9 +26,9 @@ namespace BLL
         }
 
         /// <summary>
-        /// EDITANDO O SEU CU FILHA DUMA PUTA
+        /// Método para editar a relação de uma mensalidade/plano
         /// </summary>
-        /// <param name="mp">OBJETO COM A SUA MAE DANDO PRA UM TRAVECO</param>
+        /// <param name="mp">Obejto de mensalidade - plano</param>
         public void editar(MO_MensalidadePlano mp)
         {
             if (mp != null)
